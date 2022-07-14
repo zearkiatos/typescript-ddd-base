@@ -25,3 +25,6 @@ default: build
 # Build image
 build:
 	docker build -t $(IMAGE_NAME):dev .
+
+docker-dev:
+	docker compose up --build

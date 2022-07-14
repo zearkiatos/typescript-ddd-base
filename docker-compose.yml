@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: typescript-ddd-base
+    env_file:
+      - .env
+    volumes: 
+      - ".:/code"
+    ports:
+      - "5001:5000"
