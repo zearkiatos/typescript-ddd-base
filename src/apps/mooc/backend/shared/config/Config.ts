@@ -1,5 +1,6 @@
 type Config = {
-    PORT: string
+    PORT: string,
+    NODE_ENV: string,
 };
 
 export default Config;
