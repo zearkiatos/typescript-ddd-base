@@ -1,7 +1,7 @@
 # Description
 This is a typescript 🟦 project with DDD applied to a bounded context 📦
 
-![Github](https://github.com/zearkiatos/typescript-ddd-base/workflows/nodejs.yml/badge.svg)
+![Github](https://github.com/zearkiatos/typescript-ddd-base/actions/workflows/nodejs.yml/badge.svg)
 
 # Make with
 [![JavaScript](https://img.shields.io/badge/javascript-ead547?style=for-the-badge&logo=javascript&logoColor=white&labelColor=000000)]()

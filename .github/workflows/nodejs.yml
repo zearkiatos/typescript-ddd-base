@@ -24,4 +24,7 @@ jobs:
           npm run lint
       - name: npm test
         run: |
-          npm test
+          npm test  🧪
+          - name: Create .env
+      - name: Build docker 🐳
+        run: docker build . -t=typescript-ddd-base:github-build-$GITHUB_RUN_NUMBER
