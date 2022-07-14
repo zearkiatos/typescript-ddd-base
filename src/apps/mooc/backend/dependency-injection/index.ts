@@ -1,5 +1,5 @@
 import { ContainerBuilder, YamlFileLoader } from 'node-dependency-injection';
-import config from '../shared/config'
+import config from '../shared/config';
 
 const container = new ContainerBuilder();
 const loader = new YamlFileLoader(container);
